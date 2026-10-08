@@ -1,0 +1,10 @@
+# Ignorar dados brutos pesados (Regra de Engenharia)
+dados/*.csv
+
+# Arquivos temporários do Power BI
+*.pbix.backup
+~$*.pbix
+
+# Arquivos temporários do Jupyter/Python
+.ipynb_checkpoints/
+__pycache__/
